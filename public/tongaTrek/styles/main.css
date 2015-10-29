@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../assets/fonts/Quicksand-Bold.ttf') format('truetype');
+}
+
+html, body {
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Quicksand';
+}
+
+.loader {
+    position: absolute;
+    left: -1000px;
+}
+
+.game {
+    width: 100%;
+    height: 100%;
+}
